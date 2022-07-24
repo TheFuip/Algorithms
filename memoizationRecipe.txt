@@ -1,0 +1,13 @@
+Steps for Memoization
+1.) Make it work. Have a solution that is recursive.
+    - visualize the problem as a tree.
+    - see how you can take the larger problem and break it down into steps.
+    - implement the tree using recursion.
+    - test it
+
+2.) Make it efficent.
+    - add a memo object (usually hashmap speed equivalent data structure). with the keys as unique parameters and the values as recursive calls or vice-versa
+    - add a base case to return memo values.
+    - store return values into the memo.
+
+3.)  
